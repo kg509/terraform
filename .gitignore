@@ -1,0 +1,17 @@
+# 모든 디렉토리 내의 .terraform 디렉토리 제외
+**/.terraform/
+
+# 모든 디렉토리 내의 .terraform.lock.hcl 파일 제외
+**/.terraform.lock.hcl
+
+# 모든 디렉토리 내의 terraform.tfstate 파일 제외
+**/terraform.tfstate
+
+# 모든 디렉토리 내의 terraform.tfstate.backup 파일 제외
+**/terraform.tfstate.backup
+
+# 모든 디렉토리 내의 .terraform.tfstate.lock.info 파일 제외
+**/.terraform.tfstate.lock.info
+
+# 민감 정보가 포함된 iac_config.txt 파일 제외
+iac_config.txt
